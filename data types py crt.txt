@@ -1,0 +1,146 @@
+Data types:
+1. Int:
+ - behaviour : fixed 
+ - order : ordered
+ - Homogenity: homogeneous
+ - default value : 0
+ - demo:
+#Demo for int
+my_int = 42
+print("Original Integer:", my_int)
+
+#performing arithmetic operation 
+result = my int * 2
+print("Result after multiplication:", result)
+
+2.Float:
+  - behaviour : fixed 
+  - order : ordered
+  - Homogenity: homogeneous
+  - default value : 0
+ - demo:
+
+3.List:
+ - behaviour : mutable 
+ - order : ordered
+ - Homogenity: Heterogeneous
+ - default value : '[]'(an empty list)
+-DEMO 
+
+# Demo for list 
+my_list = [1, 'hello', 3.14, True]
+print("Original List:", my_list)
+
+#Adding an element to the list
+my_list.append('world')
+print("List after appending 'world' :"' my_list)
+
+#Removing an element from the list 
+my_list.remove(3.14)
+print("List after removing 3.14:",  my_list)
+
+4.Tuple:
+ - behaviour : fixed 
+ - order : ordered
+ - Homogenity: heterogenous
+ - default value : '()' (an empty tuple)
+ DEMO
+ # Demo for tuple 
+my_tuple = (1, 'apple', 3.14, False)
+print("Original Tuple:", my_tuple)
+
+#Accesing elements in the tuple 
+print("First element:", my_tuple[0])
+print("Last element:", my_tuple[-1])
+
+5.set :
+- behaviour : mutable
+ - order : unordered
+ - Homogenity: heterogenous
+ - default value : '()' (an empty set)
+ DEMO
+#DEmo for set 
+my_set = { 1, 2, 3, 4, 5}
+print("Original Set:", my_set)
+
+#Adding an element to set 
+my_set.add(6)
+print("Set after adding 6:", my_set)
+
+6.DICT:
+- behaviour : Mutable
+ - order : ordered
+ - Homogenity: heterogenous
+ - default value : '{}' (an empty tuple)
+# DEMO for dict
+my_dict = {'name': 'John' , 'age':25, 'city': 'New York'}
+print("Original Dictionary:", my_dict)
+#modifying a value in dictionary 
+my_dict['age'] = 26
+print("Dictionary after age:", my_dict)
+
+
+MACHINE LEARNING 
+ What is ml?
+Ml is subfield of computer science  that gives "computers the ability to learn without being explicitly programmed ."
+
+What is algorithm in ml ?
+An algorithcvm is a set of mathematical instructions or procedures used to learn ;patterns  or relationships from data.
+-Algorithms process input data to generate models that can make prediction.
+
+
+#Inserting at the beginning of the list 
+my_list = [2, 3, 4, 5]
+my_list.insert(0,1)
+print("List after inserting in the middle:", my_list)
+
+Slicing:
+
+1.Slicing with step (start:stop:step)
+print("\nSlicing with step (start:stop:step):")
+print(my_list[1:8:2]) 
+
+2. Slicing with negative index
+(Counting from the end )
+print("\nSlicing with negative index:")
+]print(my_list[-5:-2]) 
+
+3. Reversing list using slicing 
+print("\nReversing the list using slicing:")
+print(my_list[::-1])
+- behaviour : fixed 
+ - order : ordered
+ - Homogenity: heterogenous
+ - default value : '()' (an empty tuple)
+ DEMOvx- behaviour : fixed 
+ - order : ordered
+ - Homogenity: heterogenous
+ - default value : '()' (an empty tuple)
+ DEMO- behaviour : fixed 
+ - order : ordered
+ - Homogenity: heterogenous
+ - default value : '()' (an empty tuple)
+
+What is function?
+
+A function is reusable block of code design to perform a specific task . It can take input (parameters ) and process it.
+
+How to find the built-in methods with python
+
+How to creATE user defined function ?
+We must start with def key word followed by function name and 
+
+LAMBDA FUNCTIONS:
+A lambda function is an anonymous function, often referred as
+1) lambda expression 
+2) lambda function
+3) lambda form 
+Syntax: lambda arguments: expression 
+
+Demo:
+ADD two numbers using a lambda function 
+
+add = lambda x,y : x + y
+result = add(3,5)
+print(result)
+
